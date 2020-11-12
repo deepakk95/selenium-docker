@@ -8,5 +8,5 @@ Commands.
 For making the docker containers up and running we use command `docker-compose up -d`. Here -d stands for detach mode and containers will keep on running in the background.
 For stopping the containers, removing containers, networks, volumes, and images created by `up` we use command `docker-compose  down`.
 
---Install Docker before running test cases.
+--Install Docker before running test cases.                                                                                     
 --File `docker_setup` contains methods to run batch file required to start, stop and remove the containers.
