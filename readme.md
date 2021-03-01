@@ -1,8 +1,10 @@
 What is Docker?   
+-----------------
 Docker is a software platform that simplifies the process of building, 
 running, managing and distributing applications.
 
 What is docker compose?  
+----------------------
 Compose is a tool for defining multi-container Docker applications. With
 Compose, we use a YAML file to configure our application services. Then,
 with a single command, we can create and start all the services from our configuration.
@@ -18,7 +20,7 @@ created by `up` we use command `docker-compose  down`.
 stop and remove the containers.
 
 Some Docker Commands:
-______________________
+---------------------
 docker --version -> Returns the docker version installed on system.
 docker pull image_name ( Fetch docker_image from dockerhub. Example - "docker pull ubuntu" )
 docker run -it -d image_name ( Run the image to form container. -it refers to Interactive. -d refers to detatch mode. )
