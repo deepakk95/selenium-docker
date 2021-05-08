@@ -34,3 +34,6 @@ docker rm container_id ( Removes the docker container with the containe_id passe
 docker rmi image_id ( Removes the docker image with image_id passed )  
 docker kill container_id ( Stop the container with the image_id passed )  
 docker image prune -a ( Remove dangling images )  
+docker container prune ( Remove dangling containers )  
+
+
